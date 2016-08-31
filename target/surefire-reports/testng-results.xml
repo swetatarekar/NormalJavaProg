@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite testNG" duration-ms="15671" started-at="2016-08-30T18:19:21Z" finished-at="2016-08-30T18:19:37Z">
+    <groups>
+    </groups>
+    <test name="test a1" duration-ms="15671" started-at="2016-08-30T18:19:21Z" finished-at="2016-08-30T18:19:37Z">
+      <class name="com.qtpselenium.core.coreFramework.testcases.DummyTestCase1">
+        <test-method status="PASS" signature="testA1()[pri:1, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@35f983a6]" name="testA1" duration-ms="15581" started-at="2016-08-30T19:19:21Z" finished-at="2016-08-30T19:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA1 -->
+        <test-method status="PASS" signature="testA2()[pri:2, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@35f983a6]" name="testA2" duration-ms="5" started-at="2016-08-30T19:19:37Z" depends-on-methods="com.qtpselenium.core.coreFramework.testcases.DummyTestCase1.testA1" finished-at="2016-08-30T19:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA2 -->
+        <test-method status="PASS" signature="testA3()[pri:3, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@35f983a6]" name="testA3" duration-ms="0" started-at="2016-08-30T19:19:37Z" depends-on-methods="com.qtpselenium.core.coreFramework.testcases.DummyTestCase1.testA2, com.qtpselenium.core.coreFramework.testcases.DummyTestCase1.testA1" finished-at="2016-08-30T19:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA3 -->
+      </class> <!-- com.qtpselenium.core.coreFramework.testcases.DummyTestCase1 -->
+    </test> <!-- test a1 -->
+  </suite> <!-- suite testNG -->
+</testng-results>

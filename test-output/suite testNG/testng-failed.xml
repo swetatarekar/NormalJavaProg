@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite testNG]">
+  <test name="test a1">
+    <classes>
+      <class name="com.qtpselenium.core.coreFramework.testcases.DummyTestCase1"/>
+    </classes>
+  </test> <!-- test a1 -->
+</suite> <!-- Failed suite [suite testNG] -->

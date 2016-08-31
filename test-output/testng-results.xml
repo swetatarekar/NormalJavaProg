@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="782" started-at="2016-08-31T13:04:52Z" finished-at="2016-08-31T13:04:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="782" started-at="2016-08-31T13:04:52Z" finished-at="2016-08-31T13:04:53Z">
+      <class name="com.qtpselenium.core.coreFramework.testcases.DummyTestCase1">
+        <test-method status="PASS" signature="initializations()[pri:0, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="initializations" is-config="true" duration-ms="22" started-at="2016-08-31T14:04:52Z" finished-at="2016-08-31T14:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializations -->
+        <test-method status="PASS" signature="testA1()[pri:1, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="testA1" duration-ms="23" started-at="2016-08-31T14:04:52Z" finished-at="2016-08-31T14:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA1 -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="quitTest" is-config="true" duration-ms="1" started-at="2016-08-31T14:04:52Z" finished-at="2016-08-31T14:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializations()[pri:0, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="initializations" is-config="true" duration-ms="1" started-at="2016-08-31T14:04:53Z" finished-at="2016-08-31T14:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializations -->
+        <test-method status="PASS" signature="testA2(java.util.Hashtable)[pri:2, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="testA2" duration-ms="4" started-at="2016-08-31T14:04:53Z" data-provider="getData" depends-on-methods="com.qtpselenium.core.coreFramework.testcases.DummyTestCase1.testA1" finished-at="2016-08-31T14:04:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col4=D1, Col3=C1, Col2=B1, Col1=A1, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA2 -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="quitTest" is-config="true" duration-ms="1" started-at="2016-08-31T14:04:53Z" finished-at="2016-08-31T14:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializations()[pri:0, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="initializations" is-config="true" duration-ms="1" started-at="2016-08-31T14:04:53Z" finished-at="2016-08-31T14:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializations -->
+        <test-method status="PASS" signature="testA2(java.util.Hashtable)[pri:2, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="testA2" duration-ms="4" started-at="2016-08-31T14:04:53Z" data-provider="getData" depends-on-methods="com.qtpselenium.core.coreFramework.testcases.DummyTestCase1.testA1" finished-at="2016-08-31T14:04:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col4=D2, Col3=C2, Col2=B2, Col1=A2, Runmode=N}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA2 -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="quitTest" is-config="true" duration-ms="0" started-at="2016-08-31T14:04:53Z" finished-at="2016-08-31T14:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializations()[pri:0, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="initializations" is-config="true" duration-ms="1" started-at="2016-08-31T14:04:53Z" finished-at="2016-08-31T14:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializations -->
+        <test-method status="PASS" signature="testA2(java.util.Hashtable)[pri:2, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="testA2" duration-ms="4" started-at="2016-08-31T14:04:53Z" data-provider="getData" depends-on-methods="com.qtpselenium.core.coreFramework.testcases.DummyTestCase1.testA1" finished-at="2016-08-31T14:04:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col4=D3, Col3=C3, Col2=B3, Col1=A3, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA2 -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="quitTest" is-config="true" duration-ms="1" started-at="2016-08-31T14:04:53Z" finished-at="2016-08-31T14:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializations()[pri:0, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="initializations" is-config="true" duration-ms="1" started-at="2016-08-31T14:04:53Z" finished-at="2016-08-31T14:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializations -->
+        <test-method status="PASS" signature="testA3()[pri:3, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="testA3" duration-ms="11" started-at="2016-08-31T14:04:53Z" depends-on-methods="com.qtpselenium.core.coreFramework.testcases.DummyTestCase1.testA2, com.qtpselenium.core.coreFramework.testcases.DummyTestCase1.testA1" finished-at="2016-08-31T14:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA3 -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.qtpselenium.core.coreFramework.testcases.DummyTestCase1@51e2adc7]" name="quitTest" is-config="true" duration-ms="0" started-at="2016-08-31T14:04:53Z" finished-at="2016-08-31T14:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- com.qtpselenium.core.coreFramework.testcases.DummyTestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
